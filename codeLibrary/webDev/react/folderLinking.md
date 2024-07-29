@@ -1,4 +1,4 @@
-# Short help about react development
+# Folder linking in react environment
 
 These are small code helper for react developers.
 
