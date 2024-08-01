@@ -1,6 +1,6 @@
 # React attacks 
 
-## XSS Cross site scripting
+### XSS Cross site scripting
 
 Malicisous users are trying to launch script in our site.
 
@@ -109,6 +109,21 @@ The SameSite attribute can be used to prevent the browser from sending cookies i
 The implementation of CSRF protection should rely on a same-origin policy in browsers. Meaning, only Javascript residing on the exact same origin domain can access the cookie value and set custom headers.
 
 The React-based application implements only the client-side part of the CSRF protection. The server should also set and check the CSRF tokens. 
+
+### Vulnerable and outdated components
+
+When using third-party libraries, you can be exposed by their vulnerabilities. 
+We need to check components for known vulnerabilities before using them.
+Update the components regurlaly.
+Remove unused, redundant or unnecessary features/dependancies.
+
+#### Key Takeaways
+
+Exploiting components with known vulnerabilities is one of the most common attack vectors. The information about these vulnerabilities is openly available, making it easy for attackers to carry out their attacks across many applications and organizations.
+
+Some of the most significant breaches to date have relied on exploiting known vulnerabilities in open-source and third-party components in applications.
+
+Developers and security teams must maintain an inventory of the components integrated into their application, track related vulnerabilities and patches, and keep the system updated, maintained, and redundancy-free.
 
 # Ressources
 <!-- Images list -->
