@@ -9,3 +9,9 @@ find process using port {port}
 netstat -ano | findstr {port}
 
 ```
+
+find in history this regex {reg}
+```pwsh
+Get-Content (Get-PSReadlineOption).HistorySavePath | ? { $_ -like '{reg}' }
+
+```
