@@ -126,9 +126,9 @@ ___
 Create tables with pipes `|` and dashes `-`. Use colons for alignment.
 
 | Header 1 | Header 2 | Header 3 |
-|:---------|:---------|:---------|
+|:---------|:---------:|---------:|
 | Left-aligned | Center-aligned | Right-aligned |
-| Row 1    | Data     | More Data|
+| Row 1    | Data     |  Data|
 | Row 2    | Data     | More Data|
 
 
