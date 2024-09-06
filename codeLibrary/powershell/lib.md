@@ -4,14 +4,14 @@ taskkill.exe /PID <PID> /F
 
 ```
 
-find process using port {port}
+find process using port
 ```pwsh
 netstat -ano | findstr <port>
 
 ```
 
-find in history this regex {reg}
+find in history this regex
 ```pwsh
-Get-Content (Get-PSReadlineOption).HistorySavePath | ? { $_ -like '<reg>' }
+Get-Content (Get-PSReadlineOption).HistorySavePath | ? { $_ -like '<regex>' }
 
 ```
