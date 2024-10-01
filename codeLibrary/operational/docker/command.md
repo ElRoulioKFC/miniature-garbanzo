@@ -14,10 +14,12 @@ Here are some useful niche Docker commands that can help you streamline your Doc
 
 6. `docker stats`: Use this command to monitor the resource usage of your running containers. It provides real-time information about CPU, memory, and network usage, helping you identify resource-intensive containers.
 
-7. `docker volume rm $(docker volume ls -q)` : This command remove all volumes.
+7. `docker volume rm $(docker volume ls -q)`: This command removes all volumes. **Warning**: This will delete all Docker volumes, which may result in data loss.
 
-8. `docker rm $(docker ps -a -q)`: This command remove all images.
+8. `docker rm $(docker ps -a -q)`: This command removes all stopped containers. **Warning**: This will delete all stopped containers.
 
-9. `docker stop $(docker ps -aq)`: This command stop every runing container.
+9. `docker stop $(docker ps -aq)`: This command stops all running containers.
 
-Remember to refer to the Docker documentation for more details on each command.
+10. `docker network ls`: This command lists all the Docker networks on your system. It helps you manage and troubleshoot network configurations by providing an overview of existing networks.
+
+Remember to refer to the Docker documentation for more details on each command.volume ls -q)` : This command remove all volumes.
