@@ -56,4 +56,6 @@ Document
 In react there is a virtual DOM. The virtual DOM is managed by react and is a more reliable and efficient js structure.
 
 
+
+
 ## Reconciliation

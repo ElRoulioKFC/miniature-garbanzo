@@ -1,6 +1,6 @@
 # Prompt Engineering
 
-## Capgemini Training: Generative AI Foundations: Prompt Engineering
+## Websites Training: Generative AI Foundations: Prompt Engineering
 [Generative AI Foundations: Prompt Engineering
 ](https://degreed.com/view/Course/39193729?newWindow=true)
 
