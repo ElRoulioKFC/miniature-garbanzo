@@ -126,11 +126,11 @@ Define the role you want the AI to assume:
 
 ### Understanding Prompt Characteristics
 
-**Relevance**: Ensure the prompt clearly communicates the desired response.
-**Accuracy**: Check that the generated content is factual and correct.
-**Coherence**: Assess whether the response makes logical and linguistic sense.
-**Tone**: Verify that the response's tone matches the intended mood.
-**Clarity**: Ensure the response is easy to understand.
+- **Relevance**: Ensure the prompt clearly communicates the desired response.
+- **Accuracy**: Check that the generated content is factual and correct.
+- **Coherence**: Assess whether the response makes logical and linguistic sense.
+- **Tone**: Verify that the response's tone matches the intended mood.
+- **Clarity**: Ensure the response is easy to understand.
 
 ### Collecting Feedback
 
