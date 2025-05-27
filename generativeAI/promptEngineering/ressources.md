@@ -1,14 +1,5 @@
 # Prompt Engineering
 
-## Websites Training: Generative AI Foundations: Prompt Engineering
-[Generative AI Foundations: Prompt Engineering
-](https://degreed.com/view/Course/39193729?newWindow=true)
-
-[
-Getting Started on Prompt Engineering with Generative AI](https://app.pluralsight.com/library/courses/getting-started-prompt-engineering-generative-ai/table-of-contents)
-
----
-
 ## Mindset and Prompt Attributes for Effective AI Interaction
 
 Using an AI effectively involves understanding and optimizing various attributes of your prompts. These attributes include content length, types/formats, domain, perspective, tone, purpose, and role. Additionally, flipping roles can help generate better questions and insights. Here's a detailed approach to each attribute:
